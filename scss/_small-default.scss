@@ -63,6 +63,24 @@ nav {
   }
 }
 
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: $primaryColor;
+
+  p {
+    text-align: center;
+    color: $secondaryColor;
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+
+  p a {
+    color: $secondaryColor;
+  }
+}
+
 /* Clearfix: Force an Element not to collapse */
 .clearfix:after {
   content: "";
