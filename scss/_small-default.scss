@@ -13,7 +13,7 @@ html {
 
 
 h1 {
-    color: red;
+    color: $primaryColor;
 }
 
 p {
@@ -22,4 +22,8 @@ p {
 
 body {
     background-color: orange;
+}
+
+footer {
+    background-color: $primaryColor;
 }
