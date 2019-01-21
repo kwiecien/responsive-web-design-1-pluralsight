@@ -50,6 +50,20 @@ main {
     border: none;
     margin: 0 $gutter;
   }
+
+  figure.photo {
+    margin: .5rem $gutter;
+    width: 100% - $gutterdbl;
+
+    img {
+      width: 100%;
+    }
+
+    figcaption {
+      color: $primaryColor;
+      text-align: center;
+    }
+  }
 }
 
 /* NAVIGATION */
