@@ -1,11 +1,7 @@
 /* BODY */
-header, nav, main, footer {
+header, footer {
   max-width: 60rem;
   margin: 0 auto;
-}
-
-body {
-  background: url("../images/banner01.jpg") no-repeat center top;
 }
 
 /* NAVIGATION */
@@ -46,6 +42,11 @@ main {
     &:nth-child(3n+1) {
       clear: left;
     }
+  }
+
+  section {
+    max-width: 60rem;
+    margin: 0 auto;
   }
 
 }
