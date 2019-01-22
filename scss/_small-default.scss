@@ -12,8 +12,11 @@ body {
 }
 
 /* HEADER */
+div#headerWrapper {
+  background-color: $primaryColor;
+}
+
 header {
-    background-color: $primaryColor;
     color: $secondaryColor;
     padding: 1rem $gutter;
 
@@ -47,9 +50,6 @@ header {
 
 /* NAVIGATION */
 nav {
-  background-color: $secondaryColor;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-
   ul li {
     float: left;
     width: 25%;
@@ -82,6 +82,8 @@ nav {
 
 /* MAIN */
 main {
+  background-color: white;
+
   figure.banner {
     width: 100%;
 
@@ -166,9 +168,12 @@ main {
 }
 
 /* FOOTER */
+div#footerWrapper {
+  background-color: $primaryColor;
+}
+
 footer {
   width: 100%;
-  background-color: $primaryColor;
 
   p {
     text-align: center;
