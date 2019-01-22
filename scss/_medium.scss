@@ -4,4 +4,13 @@ main {
     float: left;
     width: 50% - $gutterdbl;
   }
+
+  div.blog article {
+    float: left;
+    width: 50% - $gutterdbl;
+
+    &:nth-child(2n+1) {
+      clear: left;
+    }
+  }
 }

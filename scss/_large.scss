@@ -24,4 +24,18 @@ main {
     float: left;
     width: 25% - $gutterdbl;
   }
+
+  div.blog article {
+    float: left;
+    width: 33.3% - $gutterdbl;
+
+    &:nth-child(2n+1) {
+      clear: none;
+    }
+
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+
 }
